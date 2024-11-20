@@ -15,5 +15,6 @@
     "short_description": "Extract Username, followers, following statistics from Facebook profiles using URLs.",
     "version": "1.0.0",
     "documentation_file": "./documentation.md",
-    "input_file": "./input.json"
+    "input_file": "./input.json",
+    "app_id": "9a716460-d733-4595-b63f-34e691cef5fb"
 }
