@@ -1,12 +1,12 @@
 [
-    {
-        "type": "textarea",
-        "datatype": "string",
-        "placeholder": "Enter search keywords per line",
-        "default": "crawlora",
-        "label": "Google searchs",
-        "regex": "/^.*$/",
-        "required": true,
-        "name": "searches"
-      }
+  {
+    "type": "textarea",
+    "datatype": "string",
+    "placeholder": "Enter facebook profile URLs per line",
+    "default": "https://www.facebook.com/Cristiano/\nhttps://www.facebook.com/leomessi/",
+    "label": "Profile-link",
+    "regex": "https?://[^\\s]+",
+    "required": true,
+    "name": "urls"
+  }
 ]

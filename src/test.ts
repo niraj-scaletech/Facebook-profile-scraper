@@ -1,3 +1,5 @@
-import GetGoogleLinks from "./index";
+import ScrapFacebookProfile from "./index";
 
-GetGoogleLinks({ searches: `crawlora\nscaletech` });
+ScrapFacebookProfile({
+  urls: `https://www.facebook.com/Cristiano/\nhttps://www.facebook.com/leomessi/\nhttps://www.facebook.com/Microsoft/`,
+});
